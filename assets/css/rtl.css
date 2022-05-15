@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+*:not(i) {
+    font-family: 'Tajawal', sans-serif ;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+#scroll-top {
+	left: 17px;
+	right: auto;
+}
+#scroll-top span:first-child {
+    right: 50%;
+	left: auto;
+    margin-right: -9px;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item {
+	margin-left: 30px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+header nav .profile-content .profile-img img {
+	margin-left: 7px;
+	margin-right: 0;
+}
+header nav .profile-content .dropdown li i {
+    margin-left: 5px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item.dropdown:hover i {
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+header nav .links-list > ul .list-item .link:before {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item .link {
+	font-weight: bold;
+}
+.main-slider .carousel-btn-block .carousel-btn.right-btn {
+    left: 30px;
+	right: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.left-btn {
+    right: 30px;
+	left: auto;
+}
+
+.banner-carousel-btn.top-right {
+	left: 0;
+	right: auto;
+}
+.banner-carousel-btn.top-right .carousel-btn.left-btn {
+	margin-left: 15px;
+	margin-right: 0;
+}
+.page-details-area .sdetails-slider .owl-theme .owl-nav .owl-next {
+    left: 0;
+	right: auto;
+}
+
+.page-details-area .sdetails-slider .owl-theme .owl-nav .owl-prev {
+    right: 0;
+	left: auto;
+}
+.page-details-area blockquote span {
+	margin-left: 10px;
+	margin-right: 0;
+	float: right;
+}
+.offers-section .unit-card .offer-badge  {
+	left: 35px;
+	right: auto;
+	-webkit-transform: translate(-50%,-50%) rotate(-45deg) translateZ(0);
+    transform: translate(-50%,-50%) rotate(-45deg) translateZ(0);
+}
+.contact-page .contact-content .contact-list li i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#whatsapp {
+	left: 30px;
+	right: auto;
+}
+.dropdown .droplist {
+	right: 0;
+	left: auto;
+}
+header nav .links-list {
+    margin-right: auto;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item .link:after {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item.dropdown .link i {
+	margin-right: 3px;
+	margin-left: 0;
+}
+header nav .profile-content {
+	margin-right: 15px;
+	margin-left: 0;
+}
+header.sticky {
+	right: 0;
+	left: auto;
+}
+.contact-page .contact-content .social-list li {
+	margin-right: 10px;
+	margin-left: 0;
+}
+.page-details-area .sdetails-content .s-list {
+	margin-right: 35px;
+	margin-left: 0;
+}
+.page-details-area .sdetails-content .s-list li {
+	padding-right: 25px;
+	padding-left: 0;
+}
+.page-details-area .sdetails-content .s-list li:before {
+	right: 0;
+	left: auto;
+}
+.blog-section .blog-content .blog-card .card-content .card-text a:hover i {
+    margin-right: 10px;
+	margin-left: 0;
+}
+.contact-page .contact-content .social-list li:first-child {
+    margin-right: 0;
+}
+.services-section .service-item:before {
+	right: 0;
+	left: auto;
+}
+.services-section .service-item .title {
+	right: 0;
+	left: auto;
+}
+.services-section .service-item:after {
+	right: 0;
+	left: auto;
+}
+footer .follow p {
+    margin-right: 10px;
+	margin-left: 0;
+}
+footer .footer-bottom .footer-social .social-list li {
+    margin-right: 20px;
+	margin-left: 0;
+}
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-circle-right:before {
+    content: "\f137";
+}
+.fa-chevron-circle-left:before {
+    content: "\f138";
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+.section-title {
+	text-align: right;
+}
+.title-part:before {
+	right: 0;
+	left: auto;
+}
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+
+
+@media(max-width: 991px) {
+	header nav .links-list {
+		right: 0;
+		left: auto;
+	}
+	#scroll-top span:first-child {
+        margin-right: -5px;
+		margin-left: 0;
+    }
+}
